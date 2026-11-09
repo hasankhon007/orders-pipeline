@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    schema: staging
+
+    tables:
+      - name: orders
+        description: Orders loaded by Airflow, partitioned logically by date.

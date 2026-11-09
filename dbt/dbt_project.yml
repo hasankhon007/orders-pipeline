@@ -1,0 +1,12 @@
+name: orders_analytics
+version: "1.0.0"
+config-version: 2
+
+profile: orders_analytics
+
+model-paths:
+  - models
+
+models:
+  orders_analytics:
+    +materialized: table
